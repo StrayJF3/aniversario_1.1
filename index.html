@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Aniversario, Maite 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Corazones flotantes de fondo -->
+  <div class="hearts-bg" id="heartsBg" aria-hidden="true"></div>
+
+  <!-- Botón de música (abre la canción en Spotify) -->
+  <button class="music-toggle" id="musicToggle" title="Escuchar nuestra canción" aria-label="Escuchar nuestra canción en Spotify">🎵</button>
+
+  <!-- SECCIÓN 1: Portada -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Nuestro aniversario</p>
+      <h1 class="names">Maite <span class="amp">&amp;</span> Juan</h1>
+      <p class="subtitle">1 año y 1 mes amándonos 💗</p>
+      <button class="cta" id="startBtn">Abrir nuestra historia</button>
+      <div class="scroll-hint">desliza hacia abajo ⌄</div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: Contador de tiempo juntos -->
+  <section class="counter-section reveal">
+    <h2 class="section-title">Tiempo a tu lado</h2>
+    <p class="counter-caption">Desde el <span id="startDateLabel">día que todo empezó</span></p>
+    <div class="counter" id="counter">
+      <div class="counter-box"><span id="days">0</span><small>días</small></div>
+      <div class="counter-box"><span id="hours">0</span><small>horas</small></div>
+      <div class="counter-box"><span id="minutes">0</span><small>minutos</small></div>
+      <div class="counter-box"><span id="seconds">0</span><small>segundos</small></div>
+    </div>
+    <p class="counter-sub">...y los que nos faltan por vivir ✨</p>
+  </section>
+
+  <!-- SECCIÓN 3: Galería -->
+  <section class="gallery-section reveal">
+    <h2 class="section-title">Nuestros recuerdos</h2>
+    <p class="gallery-note">Pasa el cursor sobre cada foto 💫</p>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <!-- SECCIÓN 4: Razones (tarjetas que se voltean) -->
+  <section class="reasons-section reveal">
+    <h2 class="section-title">Razones por las que te amo</h2>
+    <p class="gallery-note">Toca cada tarjeta 🤍</p>
+    <div class="reasons" id="reasons"></div>
+  </section>
+
+  <!-- SECCIÓN 5: La carta -->
+  <section class="letter-section reveal">
+    <h2 class="section-title">Una carta para ti</h2>
+    <div class="envelope" id="envelope">
+      <div class="envelope-flap"></div>
+      <div class="envelope-body">
+        <span class="envelope-hint">Haz clic para abrir 💌</span>
+      </div>
+    </div>
+    <div class="letter" id="letter">
+      <p>Mi querida Maite,</p>
+      <p id="letterBody">
+        Hace un año y un mes empezó la historia más bonita de mi vida. Gracias
+        por cada risa, cada abrazo y cada día a tu lado. Eres mi lugar favorito
+        y mi persona favorita. Hoy celebramos nuestro amor, pero la verdad es
+        que te celebro todos los días. Te amo hoy, mañana y siempre.
+      </p>
+      <p class="letter-sign">Con todo mi corazón,<br /><span>Juan ❤️</span></p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 6: Final -->
+  <section class="finale reveal">
+    <h2 class="finale-text">Feliz aniversario,<br />mi vida 💕</h2>
+    <button class="cta" id="loveBtn">Dame un clic de amor</button>
+  </section>
+
+  <footer class="footer">Hecho para el amor de mi vida 💖</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
