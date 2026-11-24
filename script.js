@@ -1,7 +1,7 @@
 /* ====== CONFIGURACIÓN (edítala a tu gusto) ====== */
 // Fecha en que empezó la relación: AÑO, MES (1-12), DÍA
 // 1 año y 1 mes atrás como ejemplo. Cámbiala por tu fecha real.
-const START_DATE = new Date(2024, 9, 11, 0, 0, 0); // 11 de octubre de 2024
+const START_DATE = new Date(2025, 9, 23, 0, 0, 0); // 23 de octubre de 2025
 
 // Fotos de la galería (están en la carpeta "fotos/").
 const PHOTOS = [
